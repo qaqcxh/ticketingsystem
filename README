@@ -1,0 +1,6 @@
+bin/ 目录存放编译的class文件
+checker/ 目录存放可线性化验证工具及其说明，源代码在ticketingsystem/LinearizationChecker.java
+ticketingsystem/ 目录是源代码目录
+perf.sh 是性能测试脚本，执行./perf.sh即可测试吞吐量
+makejar.sh 自动生成可线性化验证程序的jar包
+trace.sh 是myproject自带的脚本，用于生成trace
